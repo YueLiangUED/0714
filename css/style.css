@@ -158,6 +158,7 @@ footer .sBtn2{
 
 /*搜索框*/
 .search{
+    box-sizing: border-box;
     position: relative;
     margin: 0;
     padding-top: 1rem;
@@ -194,7 +195,7 @@ footer .sBtn2{
 }
 .classify h2{
     padding-left: 1rem;
-    width:100%;
+    width:36.5rem;
     height:2.5rem;
     background-color: #f3f3f3;
     font-size:1.421rem;
