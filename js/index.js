@@ -23,6 +23,7 @@ $(function () {
         $('#top').slideDown(200,function () {
             $('.select-school').slideUp();
         });
+        $('html,body').animate({scrollTop:0}, 0);
         $('.search1>input').val($(e.target).text());
     });
     //右侧索引首字母搜索功能
