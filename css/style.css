@@ -20,6 +20,7 @@ section .search1 input{
     height: 3.2rem;
     font-size: 1.4rem;
     border: 2px solid #333333;
+    color: #333333;
 }
 section .search1 span{
     position: absolute;
@@ -105,17 +106,17 @@ footer .sBtn2{
 /*搜索学校样式*/
 /*头部*/
 .header{
+    box-sizing: border-box;
     position: relative;
     margin:0;
-    padding-top:1.2rem;
-    width:100%;
+    width:37.5rem;
     height:4.6rem;
     background-color: #0085cf;
 }
 .header a{
     position: absolute;
     left:1rem;
-    top:1rem;
+    top:0;
     bottom:0;
     margin: auto;
     display: inline-block;
@@ -126,7 +127,7 @@ footer .sBtn2{
     font-size:1.8rem;
     color:#fff;
     text-align: center;
-    line-height:1.8rem;
+    line-height:4.6rem;
 }
 .header b{
     display: inline-block;
