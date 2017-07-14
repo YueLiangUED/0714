@@ -22,7 +22,7 @@ section .search1 input{
     border: 2px solid #333333;
     color: #333333;
 }
-::-webkit-input-placeholder{
+input::-webkit-input-placeholder{
     color: #333333;
 }
 section .search1 span{
@@ -119,9 +119,7 @@ footer .sBtn2{
 .header a{
     position: absolute;
     left:1rem;
-    top:0;
-    bottom:0;
-    margin: auto;
+    top:1.625rem;
     display: inline-block;
     width:1.35rem;
     height:1.35rem;
@@ -190,6 +188,7 @@ footer .sBtn2{
     height:1.65rem;
     background: url(../images/search.png) center no-repeat;
     background-size:cover;
+    z-index: 99;
 }
 .search div:hover{
     cursor: pointer;
