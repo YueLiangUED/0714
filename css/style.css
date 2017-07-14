@@ -166,13 +166,15 @@ footer .sBtn2{
     text-align: center;
 }
 .search input{
-    padding: 0 1.5rem;
+    box-sizing: border-box;
+    padding: 0 5rem 0 1.5rem;
     width:33rem;
     height:3rem;
     background-color: #f3f3f3;
     border: none;
     border-radius: 2rem;
     font-size: 1.2rem;
+    line-height: 3rem;
     outline: none;
 }
 .search div{
