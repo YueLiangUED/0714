@@ -22,6 +22,9 @@ section .search1 input{
     border: 2px solid #333333;
     color: #333333;
 }
+::-webkit-input-placeholder{
+    color: #333333;
+}
 section .search1 span{
     position: absolute;
     top: 2px;
