@@ -190,9 +190,6 @@ footer .sBtn2{
     background-size:cover;
     z-index: 99;
 }
-.search div:hover{
-    cursor: pointer;
-}
 /*学校分类*/
 .classify{
     margin-bottom: 2rem;
