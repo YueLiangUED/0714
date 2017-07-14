@@ -1,0 +1,102 @@
+header{
+    width: 37.5rem;
+    height: 16.4rem;
+    background: url("../images/headerBg.png") center no-repeat;
+    background-size: cover;
+}
+section .search{
+    position: relative;
+    box-sizing: border-box;
+    margin: 2rem auto;
+    width: 27rem;
+    height: 3.2rem;
+
+}
+section .search input{
+    box-sizing: border-box;
+    padding-left: 0.8rem;
+    padding-right: 3.5rem;
+    width: 27rem;
+    height: 3.2rem;
+    font-size: 1.4rem;
+    border: 2px solid #333333;
+}
+section .search span{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    display: block;
+    width: 3rem;
+    height: 2.95rem;
+    background: url("../images/jiantou.png") center no-repeat;
+    background-size: cover;
+}
+section .box{
+    position: relative;
+    box-sizing: border-box;
+    width: 37.5rem;
+}
+section .box.aa{
+    height: 37rem;
+    background: url("../images/pic_04.png") center no-repeat;
+    background-size: cover;
+}
+section .box.bb{
+    height: 12.8rem;
+    background: url("../images/pic_05.png") center no-repeat;
+    background-size: cover;
+}
+section .box.cc{
+    height: 12.9rem;
+    background: url("../images/pic_06.png") center no-repeat;
+    background-size: cover;
+}
+section .box.dd{
+    height: 14.75rem;
+    background: url("../images/pic_07.png") center no-repeat;
+    background-size: cover;
+}
+section .box.ee{
+    height: 81.5rem;
+    background: url("../images/pic_08.png") center no-repeat;
+    background-size: cover;
+}
+section .box.ff{
+    height: 76.35rem;
+    background: url("../images/pic_09.png") center no-repeat;
+    background-size: cover;
+}
+section .box.gg{
+    height: 84.05rem;
+    background: url("../images/pic_10.png") center no-repeat;
+    background-size: cover;
+}
+section .box span{
+    position: absolute;
+    display: block;
+}
+section .box.a span{
+    bottom: 0;
+    right: 3.4rem;
+    width: 8.7rem;
+    height: 2.7rem;
+    background: url("../images/button-look.png") center no-repeat;
+    background-size: cover;
+}
+section .box.dd span{
+    top: 6rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 15.1rem;
+    height: 4.85rem;
+    background: url("../images/selectBtn.png") center no-repeat;
+    background-size: cover;
+}
+footer .sBtn2{
+    margin: 2.5rem auto;
+    width: 15.1rem;
+    height: 4.85rem;
+    background: url("../images/selectBtn.png") center no-repeat;
+    background-size: cover;
+}
